@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Quicksand;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    /* background-color: rgba(34, 49, 52, 0.9); */
+    background-color: #132b4f;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    z-index: 10px;
+}
+
+.logo {
+    width: 300px;
+    margin-top: 8px;
+}
+
+.logo-alamat {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 15px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+  position: static;
+  padding: 180px 0 100px 0;
+  background : #132b4f url(asset/slider.jpg) no-repeat 50%;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+  }
+
+.profil {
+    background-color: #239b76;
+  }
+
+.statis {
+    background-color: #c2336f;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+  }
+
+/* Visi-Misi */
+.visi-wrapper {
+   
+    padding-bottom: 50px;
+    padding-top : 30px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.visi-wrapper h3 {
+    /* background-color: #e9c06e; */
+    padding-top: 10;
+    border-radius: 5px;
+
+}
+
+.visi-container {
+    display: flex;
+}
+
+.content {
+    flex: auto;
+    width: 50%;
+    margin: 10px;
+    
+}
+
+.content p {
+    margin: 20px;
+}
+
+
+
+/* Video */
+.video-wrapper {
+    padding-bottom: 50px;
+    padding-top : 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #674ea7;
+    background-image :linear-gradient(90deg,#674ea7,#c2336f);
+    text-align: center;
+    color: white;
+}
+
+/* Statistic */
+/* .statistic-wrapper {
+  display: flex;
+  flex-direction: column;
+  -ms-flex-item-align: center;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-right: 5%;
+  padding-left: 5%;
+} */
+
+.card {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(34,30,32,.125);
+    border-radius: .25rem;
+}
+
+.statistic-wrapper {
+  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.statistics {
+    display: flex;
+    padding-right: 5%;
+    padding-left: 5%;
+    
+}
+.statistic {
+    flex : auto;
+    width: 25%;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border :1px solid #e9ecef;
+    box-shadow : 1px 1px 15px #e9ecef;
+     
+}
+
+.statistic-icon {
+    position: inherit;
+    display: inline;
+}
+
+.nominal {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+  }
+
+
+
+/* Alumni */
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+/* Alamat */
+.alamat-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #132b4f;
+    color : #e9ecef;
+}
+
+.table-alamat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    width : 25%;
+    flex-direction: row;
+}
