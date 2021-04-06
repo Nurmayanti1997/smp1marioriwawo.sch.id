@@ -274,3 +274,14 @@ header {
     width : 25%;
     flex-direction: row;
 }
+
+/* Footer */
+footer p {
+    color: #132b4f;
+    font-size: 15px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
