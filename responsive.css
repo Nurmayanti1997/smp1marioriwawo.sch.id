@@ -1,0 +1,93 @@
+@media all and (max-width: 1000px) {
+    
+    .top-wrapper h1 {
+        font-size: 30px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+      }
+
+    .top-wrapper {
+
+    }
+
+    .header-right {
+        margin-right: -15px;
+    }
+
+    /* .alamat-wrapper {
+        display: flex;
+        justify-content: first baseline;
+    } */
+
+    
+    .table-alamat {
+        flex-direction: column;
+        
+        
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .video-wrapper {
+        width: 100%;
+    }
+
+    iframe {
+        width : 600px;
+        height : 400px;
+    }
+
+}
+
+
+@media all and (max-width : 670px) {
+    
+    .header-right {
+        display: none;
+    }
+    
+   
+
+    .visi-container {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .top-wrapper h1 {
+        font-size: 18px;
+    }
+
+    .video-wrapper {
+        width: 100%;
+    }
+
+    iframe {
+        width : 300px;
+        height : 150px;
+    }
+
+
+    /* Statistik */
+
+    .statistic-wrapper {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .statistics {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        width: 95%;
+        justify-content: center;
+        margin-bottom : 10px;
+    }
+}
